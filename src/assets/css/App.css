@@ -13,7 +13,8 @@
   justify-content: center;
   gap: 8px;
   width: 50vw;
-  background-color: rgb(255, 103, 1);
+  background-image: url('../img/textura-madeira-3.png');
+  /* background-color: rgb(104, 43, 2); */
   padding: 15px;
   border-radius: 10px;
 }
@@ -24,7 +25,7 @@
   height: 65vh;
   background-color: rgb(255, 198, 123);
   border: 8px solid;
-  border-color: rgb(255, 103, 1);
+  border-color: rgb(60,35,15);
 }
 
 .body div{

@@ -8,20 +8,15 @@
     color: #1a1008;
     text-decoration: none;
     border: none;
-    background-color: #A0522D;
+    background-color: #bb6239;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
-  .wood-button:hover {
-    background-color: #8B4513;
+  .clicked, .wood-button:active, .wood-button:hover {
+    background-color: #422214;
+    color: white;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.4);
-  }
-  
-  .wood-button:active {
-    background-color: #70340A;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-    transform: translateY(1px);
   }

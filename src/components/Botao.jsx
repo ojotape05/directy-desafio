@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import '../assets/css/Botao.css'
 
-function Botao({tipo}) {
-  const [count, setCount] = useState(0)
+function Botao({ tipo, onClick, clicked }) {
 
   return (
     <>      
-        <button className='wood-button'>
+        <button
+          onClick={() => onClick(tipo)}
+          className={`wood-button ${clicked ? 'clicked' : ''}`}
+        >
             {tipo}
         </button>        
     </>
