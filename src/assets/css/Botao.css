@@ -1,0 +1,27 @@
+.wood-button {
+    display: inline-block;
+    min-width: 65px;
+    padding: 10px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1a1008;
+    text-decoration: none;
+    border: none;
+    background-color: #A0522D;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .wood-button:hover {
+    background-color: #8B4513;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.4);
+  }
+  
+  .wood-button:active {
+    background-color: #70340A;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    transform: translateY(1px);
+  }
