@@ -6,7 +6,7 @@ Antes de começar, certifique-se de ter o **Node.js** e o **npm** instalados na 
 
 ## ⚙️ Configuração do Ambiente
 
-1. **Abra dois terminais** no VsSCode para rodar o Back-End e o Front-End separadamente.
+1. **Abra dois terminais** no VSCode para rodar o Back-End e o Front-End separadamente.
 2. Caso esteja na pasta raiz do projeto, acesse os diretórios correspondentes:
    ```sh
    cd back-end
