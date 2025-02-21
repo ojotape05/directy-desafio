@@ -19,15 +19,43 @@
   border-radius: 10px;
 }
 
-.body {
+.body{
+  display: flex;
+  flex-direction: row;
+}
+
+.conteudo-principal {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 50vw;
   height: 65vh;
-  /* background-image: url('../img/textura-papel.jpg');
-  background-size: contain; */
   background-color: rgb(255, 198, 123);
+}
+
+#div-hist{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 14vw;
+  text-align: initial;
+  background-color: rgb(155, 115, 64);
+  color: black;
+  padding: 7px
+}
+
+#historico{
+  height: 85%;
+  width: 100%;
+}
+
+#button-historico{
+  display: flex;
+  height: 15%;
+  align-items: center;
+}
+
+.conteudo-principal, #div-hist{
   border: 8px solid;
   border-color: rgb(60,35,15);
 }
@@ -84,9 +112,18 @@
 }
 
 #exemplo-dado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(172, 127, 68);
   height: 80%;
   width: 80%;
+  transition: transform 0.5s ease-in-out; /* Adiciona uma transição suave */
+}
+
+#exemplo-dado img{
+  width: 70%;
+  height: 70%;
 }
 
 #div-numero {
@@ -96,10 +133,10 @@
   font-size: 12vw;
   text-align: center;
   color: yellow;
-  transition: transform 0.5s ease-in-out; /* Adiciona uma transição suave */
+  
 }
 
-#div-numero.animating {
+#exemplo-dado.animating {
   animation: roll 1s linear infinite; /* Adiciona animação de rolagem */
 }
 

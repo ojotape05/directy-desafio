@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
     res.send("API FUNCIONANDO")
 })
 
-app.post("/jogar-dado", (req, res) => {
+app.post("/girar-dado", (req, res) => {
     const tipoDado = req.body.tipo_dado;
     const tiposValidos = ['D2', 'D4', 'D6', 'D8', 'D10', 'D12', 'D20', 'D100'];
 
@@ -21,8 +21,8 @@ app.post("/jogar-dado", (req, res) => {
     let numeroFaces = parseInt( tipoDado.slice(1, tipoDado.length) )
     const resultado = Math.floor(Math.random() * numeroFaces) + 1;
 
-    console.log("POST: /jogar-dado")
-    console.log({ resultado: resultado })
+    console.log("POST: /girar-dado")
+    console.log({ resultado: resultado }, "\n")
     res.json({ resultado: resultado });
 })
 

@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import '../assets/css/Botao.css'
 
 function Botao({ tipo, onClick, clicked }) {
