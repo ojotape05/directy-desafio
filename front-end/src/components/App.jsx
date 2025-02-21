@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import '../assets/css/App.css'
 import Botao from './Botao'
+
 import dadoD2 from '../assets/img/dado-d2.png';
 import dadoD4 from '../assets/img/dado-d4.png';
 import dadoD6 from '../assets/img/dado-d6.png';
